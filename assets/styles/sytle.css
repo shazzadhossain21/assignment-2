@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font1{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+  .work-sans-font2 {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /* shared styles */
+  .width{
+    max-width: 1440px;
+  }
+ a{
+    text-decoration: none;
+ }
+  a:hover{
+    background-color: lightblue;
+  }
+  .display-flex{
+    display: flex;
+  }
+
+  /* nav styles  */
+  .nav-container{
+    width: 1160px;
+    height: 62px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 186px;
+    margin: 20px 140px 18px 140px ;
+
+  }
+  nav ul{
+    gap: 32px;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  /* banner styles */
+  .banner-container{
+    width: 1158.61px;
+    height: 575px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 20px 140px 18px 140px ;
+
+
+  }
+  
