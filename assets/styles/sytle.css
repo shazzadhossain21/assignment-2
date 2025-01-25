@@ -16,6 +16,7 @@
   }
 
   /* shared styles */
+
   .width{
     max-width: 1440px;
   }
@@ -101,6 +102,9 @@ height: 331px; */
   #title-color2{
     color: #01ACFD;
   }
+  .banner-img{
+    width: 100%;
+  }
   
   .section-title{
     font-size: 3.5rem;
@@ -125,6 +129,9 @@ height: 331px; */
 /* curriculum section styles */
   .bg-img{
     background-image: url(../bg.png);
+  }
+  .bg-color{
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
   }
   .curriculum-header {
     margin-top: 60px;
@@ -168,10 +175,107 @@ line-height: 24px;
   }
 
   /* stories section styles */
-
+  .article-header{
+    color: rgb(0, 0, 0);
+font-size: 2.9rem;
+font-weight: 700;
+text-align: center;
+margin-bottom: 80px;
+  }
+  .article-container{
+    justify-content: space-evenly;
+    gap: 19px;
+  }
+.story1{
+  box-sizing: border-box;
+  border-radius: 16px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  
+  background: rgb(255, 255, 255);
+}
   .story-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+    margin-left: 19px;
+
+  }
+  .story{
+    box-sizing: border-box;
+    border-radius: 16px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    
+    background: rgb(255, 255, 255);
+  }
+  .article-img{
+    width: 100%;
+  }
+  .article-btn1{
+    position: absolute;
+    width: 174.51px;
+    padding: 10px;
+    margin-top: -30px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 500;
+border: 0;
+border-radius: 47.93px;
+
+background: rgb(60, 216, 232);
+
+  }
+  .article-btn2{
+    position: absolute;
+    width: 174.51px;
+    padding: 10px;
+    margin-top: -30px;
+    margin-left: 25px;
+    color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 500;
+border: 0;
+border-radius: 47.93px;
+
+background: rgb(149, 178, 38);
+
+  }
+  .article-btn3{
+    position: absolute;
+    width: 174.51px;
+    padding: 10px;
+    margin-top: -30px;
+    margin-left: 25px;
+    color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 500;
+border: 0;
+border-radius: 47.93px;
+
+background: rgb(93, 88, 240);
+  }
+  .article-title-head{
+    color: rgb(0, 0, 0);
+   margin-left: 38px;
+
+font-size: 1.5rem;
+font-weight: 700;
+  }
+  .article-description-head {
+    color: rgb(102, 102, 102);
+font-size: 0.9rem;
+font-weight: 500;
+margin-left: 38px;
+margin-right: 68px;
+margin-bottom: 35px;
+
+  }
+  .article-title{
+    color: rgb(0, 0, 0);
+font-size: 0.9rem;
+font-weight: 700;
+margin: 37px 23px 62px 33px;
+
   }
   .article-button{
     margin-top: 80px;
