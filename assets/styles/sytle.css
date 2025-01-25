@@ -29,10 +29,16 @@
     display: flex;
   }
 
+  .primary-btn{
+    background-color: #111111;
+    border-radius: 12px;
+    padding: 10px;
+  }
+
   /* nav styles  */
   .nav-container{
-    width: 1160px;
-    height: 62px;
+    /* width: 1160px;
+    height: 62px; */
     justify-content: space-between;
     align-items: center;
     gap: 186px;
@@ -44,16 +50,108 @@
     list-style: none;
     text-decoration: none;
   }
+  .nav-home{
+    color: rgb(254, 163, 1);
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .nav-about{
+    color: rgb(1, 172, 253);
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .nav-facilities{
+    color: rgb(5, 212, 223);
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .nav-admission{
+    color: rgb(93, 88, 239);
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .nav-btn{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    width: 197px;
+    padding: 10px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    }
 
   /* banner styles */
   .banner-container{
-    width: 1158.61px;
-    height: 575px;
-    justify-content: space-between;
+   width: auto;
+    justify-content: space-between; 
     align-items: center;
-    gap: 50px;
-    margin: 20px 140px 18px 140px ;
-
-
+     gap: 50px;
+    margin: 20px 140px 18px 140px ; 
+  }
+  .banner-items{
+    /* width: 640px;
+height: 331px; */
+    margin-top: 122px;
+    margin-bottom: 122px;
+  }
+  #title-color1{
+    color: #FEA301;
+  }
+  #title-color2{
+    color: #01ACFD;
   }
   
+  .section-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: -10px;
+    letter-spacing: 0;
+  }
+  .section-description{
+    color: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .banner-btn{
+    width: 197px;
+    height: 50px;
+    margin-top: 24px;
+    padding: 10px;
+    color: white;
+  }
+/* curriculum section styles */
+  .bg-img{
+    background-image: url(../bg.png);
+  }
+  .curriculum-header {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: 700;
+    line-height: 57.5px;
+
+  }
+  .curriculum-container{
+    margin: 140px 197.5px 140px 200px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 26.30px;
+    text-align: center;
+   
+   
+  }
+  .curriculum-items{
+    width: 367.8px;
+    height: 476.78px;
+    padding: 40px 61px 40px 58px;
+  box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  }
