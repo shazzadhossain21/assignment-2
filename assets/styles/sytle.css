@@ -155,3 +155,98 @@ border-radius: 18.86px;
 box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
   }
+ 
+  .previous-round, .next-round{
+    border-radius: 30px;
+  background: rgb(254, 163, 1);
+  color: rgb(255, 255, 255);
+font-family: Font Awesome 5 Free;
+font-size: 60px;
+font-weight: 900;
+line-height: 24px;
+
+  }
+
+  /* stories section styles */
+
+  .story-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .article-button{
+    margin-top: 80px;
+    text-align: center;
+  }
+  .view-btn{
+    color: rgb(255, 255, 255);
+font-size: 1.25rem;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: center;
+padding: 10px;
+border-radius: 12px;
+  }
+  .clr{
+    background-color: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  }
+
+  /* footer styles */
+  .main-foter{
+    
+    justify-content: space-around;
+    align-items:start;
+    gap: 100px;
+    margin-top: 70px;
+    padding-top: 124px;
+    padding-bottom: 174px;
+    background-color:rgb(1, 172, 253);
+    border: 0;
+  }
+  .education{
+width: 400px;
+  }
+
+  .about-items{
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+  }
+  .about-items a{
+    text-decoration: none;
+  }
+  .footer-description{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 1.25rem;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .education-head{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 39.51px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .about-head{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .social{
+    color: rgb(255, 255, 255);
+
+font-size: 1.7rem;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+  }
